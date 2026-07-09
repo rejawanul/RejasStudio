@@ -636,119 +636,6 @@
   <div class="divider"></div>
 
   <!-- =============================================
-     EXPLAINER VIDEO SECTION
-     ============================================= -->
-  <section id="explainer" class="section" aria-labelledby="explainer-heading">
-    <div class="container">
-      <div class="section-header" style="text-align:center; display:flex; flex-direction:column; align-items:center;">
-        <span class="section-tag reveal" aria-hidden="true">🎬 See It In Action</span>
-        <h2 class="section-title reveal reveal-delay-1" id="explainer-heading">
-          Watch How We <span>Transform</span> Your Content
-        </h2>
-        <p class="section-sub reveal reveal-delay-2" style="text-align:center; max-width:620px;">
-          See exactly how Reja's Studio takes raw footage and turns it into high-retention, cinematic content
-          that grows channels and wins audiences.
-        </p>
-      </div>
-
-      <div class="explainer-wrap reveal reveal-delay-2">
-
-        <!-- Video Player -->
-        <div class="explainer-player" id="explainer-player">
-          <div class="explainer-thumbnail" id="explainer-thumb" onclick="playExplainerVideo()" role="button"
-            tabindex="0" aria-label="Play explainer video"
-            onkeydown="if(event.key==='Enter'||event.key===' ')playExplainerVideo()">
-
-            <!-- Fake thumbnail gradient -->
-            <div class="explainer-thumb-bg" aria-hidden="true"></div>
-
-            <!-- Floating labels -->
-            <div class="explainer-label explainer-label--tl" aria-hidden="true">
-              <span class="elabel-dot"></span> Before &amp; After Edit
-            </div>
-            <div class="explainer-label explainer-label--tr" aria-hidden="true">2:47</div>
-
-            <!-- Center Play Button -->
-            <div class="explainer-play-btn" aria-hidden="true">
-              <div class="explainer-play-ring"></div>
-              <div class="explainer-play-ring explainer-play-ring--2"></div>
-              <div class="explainer-play-icon">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
-                  <polygon points="5 3 19 12 5 21 5 3" />
-                </svg>
-              </div>
-            </div>
-
-            <!-- Bottom bar -->
-            <div class="explainer-bottom-bar" aria-hidden="true">
-              <span class="explainer-title-pill">Reja's Studio — Process Walkthrough</span>
-              <div class="explainer-progress">
-                <div class="explainer-progress-fill"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <!-- Actual iframe (hidden until play clicked) -->
-          <iframe id="explainer-iframe" class="explainer-iframe" src="" title="Reja's Studio Explainer Video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-
-        <!-- Side Stats -->
-        <div class="explainer-stats">
-          <div class="explainer-stat-card reveal reveal-delay-1">
-            <div class="estat-icon" aria-hidden="true">🎬</div>
-            <div class="estat-body">
-              <div class="estat-num">1150+</div>
-              <div class="estat-label">Videos Edited</div>
-            </div>
-          </div>
-          <div class="explainer-stat-card reveal reveal-delay-2">
-            <div class="estat-icon" aria-hidden="true">⚡</div>
-            <div class="estat-body">
-              <div class="estat-num">48h</div>
-              <div class="estat-label">Avg Turnaround</div>
-            </div>
-          </div>
-          <div class="explainer-stat-card reveal reveal-delay-3">
-            <div class="estat-icon" aria-hidden="true">📈</div>
-            <div class="estat-body">
-              <div class="estat-num">+67%</div>
-              <div class="estat-label">Watch Time Increase</div>
-            </div>
-          </div>
-          <div class="explainer-stat-card reveal">
-            <div class="estat-icon" aria-hidden="true">🌍</div>
-            <div class="estat-body">
-              <div class="estat-num">14+</div>
-              <div class="estat-label">Countries Served</div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- CTA under video -->
-      <div style="text-align:center; margin-top:52px;" class="reveal">
-        <p style="color:var(--text-secondary); font-size:0.95rem; margin-bottom:20px;">
-          Liked what you saw? Let's create something even better for your channel.
-        </p>
-        <a href="#cta" id="explainer-cta-btn" class="btn-primary" style="display:inline-flex;">
-          Start Your Project
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <line x1="5" y1="12" x2="19" y2="12" />
-            <polyline points="12 5 19 12 12 19" />
-          </svg>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- =============================================
      TESTIMONIALS SECTION
      ============================================= -->
   <section id="testimonials" class="section" aria-labelledby="testimonials-heading">
@@ -992,19 +879,6 @@
           </ul>
         </div>
 
-        <!-- Newsletter -->
-        <div class="footer-newsletter">
-          <h4>Stay in the Loop</h4>
-          <p>Get editing tips, YouTube growth strategies, and studio news delivered to your inbox.</p>
-          <form class="newsletter-form" id="newsletter-form" onsubmit="handleNewsletterSubmit(event)"
-            aria-label="Newsletter signup form">
-            <input type="email" id="newsletter-email" placeholder="Your email address" aria-label="Email address"
-              required />
-            <button type="submit" id="newsletter-submit-btn" aria-label="Subscribe to newsletter">Subscribe</button>
-          </form>
-        </div>
-
-      </div>
 
       <!-- Footer Bottom -->
       <div class="footer-bottom">
