@@ -33,7 +33,6 @@ const tiers: PricingTier[] = [
     featured: true,
     features: [
       "4 Long-Form Videos (Up to 10 minutes each)",
-      "4 Viral Reels / Shorts (Up to 90 seconds each)",
       "Premium advanced motion graphics, kinetic typography & sound SFX",
       "Custom After Effects animations & dynamic visual hooks",
       "5 Revisions included per video",
