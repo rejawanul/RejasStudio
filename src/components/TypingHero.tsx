@@ -3,8 +3,6 @@
 import { useState, useEffect } from "react";
 
 const words = [
-  "Going Viral.",
-  "Millions of Views.",
   "High Retention.",
   "Top Rankings.",
   "Max Engagement.",
